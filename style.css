@@ -176,10 +176,11 @@ main{
     background-color: white;
     transition: all 1s;
     z-index: 3;
-    display: none;
     position: fixed; 
     top: 0;
     right: 0;
+    transition: opacity 1s linear;
+    opacity: 0;
 }
 .show-menu .sidebar{
     right: 0;
