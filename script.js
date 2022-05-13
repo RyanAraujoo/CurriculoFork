@@ -4,11 +4,11 @@ const optionsMenu = document.querySelector(".sidebar")
 const btnMenu = document.getElementById("menu")
 btnMenu.addEventListener("click", () => {
         //console.log("cliquei no menu")
-        if (optionsMenu.style.display == 'none' || optionsMenu.style.display == '') {
-          optionsMenu.style.display = 'block'
+        if (optionsMenu.style.opacity == 0) {
+          optionsMenu.style.opacity = 3
          
      } else {
-          optionsMenu.style.display = 'none'
+         optionsMenu.style.opacity = 0
           
   } 
 })
